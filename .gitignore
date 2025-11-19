@@ -22,3 +22,28 @@
 Homestead.json
 Homestead.yaml
 Thumbs.db
+
+# Test files
+check_ollama.php
+comprehensive_test.php
+test_http_methods.php
+test_wizard_with_auth.php
+verify_ui_completion.php
+test-css.blade.php
+
+# Setup files
+setup_ollama_complete.bat
+
+# Storage and cache
+/bootstrap/cache/*
+/storage/app/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+!storage/app/.gitkeep
+!storage/app/public/.gitkeep
+!storage/framework/cache/.gitkeep
+!storage/framework/sessions/.gitkeep
+!storage/framework/views/.gitkeep
+!storage/logs/.gitkeep
